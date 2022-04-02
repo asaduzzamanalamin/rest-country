@@ -1,0 +1,17 @@
+.countries{
+   display:grid;
+   grid-template-columns: auto auto auto auto;
+}
+.total-country{
+   color:brown;
+}
+.span-total{
+   color:cyan;
+}
+@media only screen and (max-width: 600px){
+   .countries{
+      display: flex;
+      flex-direction: column;
+   }
+
+}

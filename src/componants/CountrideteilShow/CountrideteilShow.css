@@ -1,0 +1,37 @@
+
+body{
+   background-color: #e5e5e5;
+}
+.img-work{
+   width:400px;
+   height: 300px;
+   
+}
+.div-work{
+   background-color: white;
+   margin: 0 auto;
+   border: 2px solid black;
+   width:30%;
+   border-radius: 5px;
+   box-shadow: 20px -20px 10px rosybrown;
+}
+.div-work h4{
+   margin: 5px;
+}
+@media only screen and (max-width: 600px){
+   .div-work{
+      width:300px;
+   }
+   .img-work{
+      width:280px;
+      margin-top: 10px;
+   }
+   .div-work h1{
+      
+      margin-bottom: 20px;
+      color:aqua;
+   }
+   .div-work h4{
+      color:aquamarine;
+   }
+}

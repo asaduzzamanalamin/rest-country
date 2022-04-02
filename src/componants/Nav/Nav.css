@@ -1,0 +1,73 @@
+.work1{
+  
+display: grid;
+grid-template-columns: 2fr 3fr;
+background-color: cadetblue;
+margin:0 auto;
+
+border-radius: 10px;
+width: 80%;
+
+
+   
+}
+
+
+.logo-cont{
+   color:darkblue;
+   font-weight: bolder;
+   font-family:fantasy;
+  
+}
+
+.work3{
+   color:red;
+   font-family:fantasy;
+}
+.menu-container a{
+   
+   text-decoration: none;
+   margin-left: 30px;
+   color:white;
+   font-weight: bolder;
+
+}
+.menu-container a:hover{
+   font-size: 20px;
+   font-family: fantasy;
+   color: brown;
+   background-color: chartreuse;
+}
+.menu-container{
+   margin-top:28px;
+   margin-left: 90px;
+   
+   
+}
+/* responsive for mobail */
+@media only screen and (max-width: 600px) {
+   .logo-container{
+      display: none;
+   }
+   .menu-container{
+      display: flex;
+      flex-direction: column;
+      /* width: 100%; */
+      margin-left:65px;
+      justify-content: center;
+      align-items: center;
+      
+     
+     
+
+
+   }
+   .menu-container a{
+     
+      margin-bottom: 30px;
+      margin-right: 20px;
+      border-radius: 4px;
+      font-size: 20px;
+      };
+     
+}
